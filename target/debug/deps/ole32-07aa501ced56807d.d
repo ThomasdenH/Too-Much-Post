@@ -1,0 +1,5 @@
+C:\Users\Thomas\Documents\Git\ggez-test\target\debug\deps\libole32-07aa501ced56807d.rlib: C:\Users\Thomas\.cargo\registry\src\github.com-1ecc6299db9ec823\ole32-sys-0.2.0\src\lib.rs
+
+C:\Users\Thomas\Documents\Git\ggez-test\target\debug\deps\ole32-07aa501ced56807d.d: C:\Users\Thomas\.cargo\registry\src\github.com-1ecc6299db9ec823\ole32-sys-0.2.0\src\lib.rs
+
+C:\Users\Thomas\.cargo\registry\src\github.com-1ecc6299db9ec823\ole32-sys-0.2.0\src\lib.rs:

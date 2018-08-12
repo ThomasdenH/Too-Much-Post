@@ -1,0 +1,5 @@
+C:\Users\Thomas\Documents\Git\ggez-test\target\debug\deps\libbitflags-f7e0c24a5731ed0d.rlib: C:\Users\Thomas\.cargo\registry\src\github.com-1ecc6299db9ec823\bitflags-0.7.0\src\lib.rs
+
+C:\Users\Thomas\Documents\Git\ggez-test\target\debug\deps\bitflags-f7e0c24a5731ed0d.d: C:\Users\Thomas\.cargo\registry\src\github.com-1ecc6299db9ec823\bitflags-0.7.0\src\lib.rs
+
+C:\Users\Thomas\.cargo\registry\src\github.com-1ecc6299db9ec823\bitflags-0.7.0\src\lib.rs:

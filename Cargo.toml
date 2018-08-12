@@ -1,0 +1,9 @@
+[package]
+name = "ggez-test"
+version = "0.1.0"
+authors = ["Thomas den Hollander <denhollander.thomas@gmail.com>"]
+build = "build.rs"
+
+[dependencies]
+ggez = "0.4"
+rand = "0.5.5"

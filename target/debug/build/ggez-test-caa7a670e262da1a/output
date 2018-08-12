@@ -1,0 +1,1 @@
+cargo:rustc-link-search=all=C:\Users\Thomas\Documents\Git\ggez-test\msvc\lib\64

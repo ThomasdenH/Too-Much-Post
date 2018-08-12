@@ -1,0 +1,12 @@
+C:\Users\Thomas\Documents\Git\ggez-test\target\debug\deps\liblewton-7450ccbee91647f5.rlib: C:\Users\Thomas\.cargo\registry\src\github.com-1ecc6299db9ec823\lewton-0.5.2\src\lib.rs C:\Users\Thomas\.cargo\registry\src\github.com-1ecc6299db9ec823\lewton-0.5.2\src\header.rs C:\Users\Thomas\.cargo\registry\src\github.com-1ecc6299db9ec823\lewton-0.5.2\src\header_cached.rs C:\Users\Thomas\.cargo\registry\src\github.com-1ecc6299db9ec823\lewton-0.5.2\src\huffman_tree.rs C:\Users\Thomas\.cargo\registry\src\github.com-1ecc6299db9ec823\lewton-0.5.2\src\imdct.rs C:\Users\Thomas\.cargo\registry\src\github.com-1ecc6299db9ec823\lewton-0.5.2\src\audio.rs C:\Users\Thomas\.cargo\registry\src\github.com-1ecc6299db9ec823\lewton-0.5.2\src\bitpacking.rs C:\Users\Thomas\.cargo\registry\src\github.com-1ecc6299db9ec823\lewton-0.5.2\src\inside_ogg.rs
+
+C:\Users\Thomas\Documents\Git\ggez-test\target\debug\deps\lewton-7450ccbee91647f5.d: C:\Users\Thomas\.cargo\registry\src\github.com-1ecc6299db9ec823\lewton-0.5.2\src\lib.rs C:\Users\Thomas\.cargo\registry\src\github.com-1ecc6299db9ec823\lewton-0.5.2\src\header.rs C:\Users\Thomas\.cargo\registry\src\github.com-1ecc6299db9ec823\lewton-0.5.2\src\header_cached.rs C:\Users\Thomas\.cargo\registry\src\github.com-1ecc6299db9ec823\lewton-0.5.2\src\huffman_tree.rs C:\Users\Thomas\.cargo\registry\src\github.com-1ecc6299db9ec823\lewton-0.5.2\src\imdct.rs C:\Users\Thomas\.cargo\registry\src\github.com-1ecc6299db9ec823\lewton-0.5.2\src\audio.rs C:\Users\Thomas\.cargo\registry\src\github.com-1ecc6299db9ec823\lewton-0.5.2\src\bitpacking.rs C:\Users\Thomas\.cargo\registry\src\github.com-1ecc6299db9ec823\lewton-0.5.2\src\inside_ogg.rs
+
+C:\Users\Thomas\.cargo\registry\src\github.com-1ecc6299db9ec823\lewton-0.5.2\src\lib.rs:
+C:\Users\Thomas\.cargo\registry\src\github.com-1ecc6299db9ec823\lewton-0.5.2\src\header.rs:
+C:\Users\Thomas\.cargo\registry\src\github.com-1ecc6299db9ec823\lewton-0.5.2\src\header_cached.rs:
+C:\Users\Thomas\.cargo\registry\src\github.com-1ecc6299db9ec823\lewton-0.5.2\src\huffman_tree.rs:
+C:\Users\Thomas\.cargo\registry\src\github.com-1ecc6299db9ec823\lewton-0.5.2\src\imdct.rs:
+C:\Users\Thomas\.cargo\registry\src\github.com-1ecc6299db9ec823\lewton-0.5.2\src\audio.rs:
+C:\Users\Thomas\.cargo\registry\src\github.com-1ecc6299db9ec823\lewton-0.5.2\src\bitpacking.rs:
+C:\Users\Thomas\.cargo\registry\src\github.com-1ecc6299db9ec823\lewton-0.5.2\src\inside_ogg.rs:

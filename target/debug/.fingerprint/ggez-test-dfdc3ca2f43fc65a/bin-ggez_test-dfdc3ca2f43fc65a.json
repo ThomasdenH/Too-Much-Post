@@ -1,0 +1,1 @@
+{"rustc":13425921501031686628,"features":"[]","target":14642729852922531689,"profile":3578579858128396652,"path":1036222786711178230,"deps":[["ggez v0.4.3","ggez",10462912155172297940]],"local":[{"MtimeBased":[[1533397657,243717800],".fingerprint\\ggez-test-dfdc3ca2f43fc65a\\dep-bin-ggez_test-dfdc3ca2f43fc65a"]}],"rustflags":[],"edition":"Edition2015"}
