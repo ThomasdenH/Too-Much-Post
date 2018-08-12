@@ -1,4 +1,4 @@
-use ggez::graphics::{Image, FilterMode};
+use ggez::graphics::{FilterMode, Image};
 use ggez::*;
 
 pub struct Images {
@@ -12,7 +12,7 @@ pub struct Images {
     pub arrow: Image,
     pub trees: Image,
     pub progress_bar: Image,
-    pub progress_bar_filled: Image
+    pub progress_bar_filled: Image,
 }
 
 impl Images {
@@ -25,7 +25,8 @@ impl Images {
             houses: vec![
                 Images::load_image(ctx, "/house_1.png")?,
                 Images::load_image(ctx, "/house_2.png")?,
-                Images::load_image(ctx, "/house_3.png")?
+                Images::load_image(ctx, "/house_3.png")?,
+                Images::load_image(ctx, "/house_4.png")?,
             ],
             sign: Images::load_image(ctx, "/sign.png")?,
             letter: Images::load_image(ctx, "/letter.png")?,

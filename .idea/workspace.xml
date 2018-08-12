@@ -2,38 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="799b74ae-6026-435b-b5b6-eb68c9f59b13" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../audio-fingerprint/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ggez-test/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ggez-test/build.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ggez-test/gnu-mingw/dll/32/SDL2.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ggez-test/gnu-mingw/dll/32/sdl2-config" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ggez-test/gnu-mingw/dll/64/SDL2.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ggez-test/gnu-mingw/dll/64/sdl2-config" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ggez-test/gnu-mingw/lib/32/libSDL2.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ggez-test/gnu-mingw/lib/32/libSDL2.dll.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ggez-test/gnu-mingw/lib/32/libSDL2.la" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ggez-test/gnu-mingw/lib/32/libSDL2_test.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ggez-test/gnu-mingw/lib/32/libSDL2_test.la" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ggez-test/gnu-mingw/lib/32/libSDL2main.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ggez-test/gnu-mingw/lib/32/libSDL2main.la" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ggez-test/gnu-mingw/lib/64/libSDL2.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ggez-test/gnu-mingw/lib/64/libSDL2.dll.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ggez-test/gnu-mingw/lib/64/libSDL2.la" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ggez-test/gnu-mingw/lib/64/libSDL2_test.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ggez-test/gnu-mingw/lib/64/libSDL2_test.la" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ggez-test/gnu-mingw/lib/64/libSDL2main.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ggez-test/gnu-mingw/lib/64/libSDL2main.la" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ggez-test/msvc/dll/32/SDL2.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ggez-test/msvc/dll/64/SDL2.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ggez-test/msvc/lib/32/SDL2.lib" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ggez-test/msvc/lib/32/SDL2main.lib" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ggez-test/msvc/lib/32/SDL2test.lib" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ggez-test/msvc/lib/64/SDL2.lib" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ggez-test/msvc/lib/64/SDL2main.lib" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ggez-test/msvc/lib/64/SDL2test.lib" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/game.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/game_state.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/splash_screen.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/game.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/game.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/images.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/release/.fingerprint/ggez-test-25ad0d179ac7d58e/bin-ggez_test-25ad0d179ac7d58e" beforeDir="false" afterPath="$PROJECT_DIR$/target/release/.fingerprint/ggez-test-25ad0d179ac7d58e/bin-ggez_test-25ad0d179ac7d58e" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/release/.fingerprint/ggez-test-25ad0d179ac7d58e/bin-ggez_test-25ad0d179ac7d58e.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/release/.fingerprint/ggez-test-25ad0d179ac7d58e/bin-ggez_test-25ad0d179ac7d58e.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/release/.fingerprint/ggez-test-bdb588190638aaf3/build" beforeDir="false" afterPath="$PROJECT_DIR$/target/release/.fingerprint/ggez-test-bdb588190638aaf3/build" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/release/.fingerprint/ggez-test-bdb588190638aaf3/build.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/release/.fingerprint/ggez-test-bdb588190638aaf3/build.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/release/deps/ggez_test-25ad0d179ac7d58e.exe" beforeDir="false" afterPath="$PROJECT_DIR$/target/release/deps/ggez_test-25ad0d179ac7d58e.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/release/deps/ggez_test-25ad0d179ac7d58e.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/target/release/deps/ggez_test-25ad0d179ac7d58e.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/release/ggez-test.exe" beforeDir="false" afterPath="$PROJECT_DIR$/target/release/ggez-test.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/release/ggez-test.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/target/release/ggez-test.pdb" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -97,25 +79,27 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="rs" value="5" />
+          <entry key="rs" value="7" />
           <entry key="ts" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Rust" value="5" />
+          <entry key="Rust" value="7" />
           <entry key="TypeScript" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="rs" value="15000" />
+          <entry key="rs" value="18893" />
           <entry key="ts" value="46" />
+          <entry key="txt" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Rust" value="15000" />
+          <entry key="PLAIN_TEXT" value="12" />
+          <entry key="Rust" value="18893" />
           <entry key="TypeScript" value="46" />
         </counts>
       </usages-collector>
@@ -135,11 +119,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main.rs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+            <state relative-caret-position="374">
+              <caret line="22" column="39" lean-forward="true" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -147,20 +131,38 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/images.rs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
-              <caret line="31" column="58" lean-forward="true" selection-start-line="31" selection-start-column="58" selection-end-line="31" selection-end-column="58" />
+            <state relative-caret-position="323">
+              <caret line="19" column="19" lean-forward="true" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/game.rs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="29" lean-forward="true" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
+            <state relative-caret-position="252">
+              <caret line="526" column="73" selection-start-line="526" selection-start-column="73" selection-end-line="526" selection-end-column="73" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/game_state.rs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret line="12" column="30" lean-forward="true" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/splash_screen.rs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="20" column="41" lean-forward="true" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="41" />
               <folding>
-                <element signature="n#!!block;n#Letter#0" />
-                <element signature="e#3329#6174#0" />
+                <element signature="e#1051#1052#0" expanded="true" />
+                <element signature="e#1085#1086#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -198,8 +200,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Rust File" />
         <option value="TypeScript File" />
+        <option value="Rust File" />
       </list>
     </option>
   </component>
@@ -216,7 +218,7 @@
     </replaceStrings>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -226,9 +228,11 @@
         <option value="$PROJECT_DIR$/src/Images.rs" />
         <option value="$PROJECT_DIR$/src/menu.ts" />
         <option value="$PROJECT_DIR$/src/menu.rs" />
-        <option value="$PROJECT_DIR$/src/main.rs" />
-        <option value="$PROJECT_DIR$/src/images.rs" />
+        <option value="$PROJECT_DIR$/src/game_state.rs" />
+        <option value="$PROJECT_DIR$/src/splash_screen.rs" />
         <option value="$PROJECT_DIR$/src/game.rs" />
+        <option value="$PROJECT_DIR$/src/images.rs" />
+        <option value="$PROJECT_DIR$/src/main.rs" />
       </list>
     </option>
   </component>
@@ -242,7 +246,7 @@
     <servers />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="953" />
+    <option name="x" value="-7" />
     <option name="width" value="974" />
     <option name="height" value="1047" />
   </component>
@@ -263,11 +267,6 @@
             <path>
               <item name="ludumdare" type="b2602c69:ProjectViewProjectNode" />
               <item name="ludumdare" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ludumdare" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ludumdare" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -281,13 +280,6 @@
               <item name="target" type="462c0819:PsiDirectoryNode" />
               <item name="release" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="ludumdare" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ludumdare" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="release" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -299,7 +291,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1534077231453" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1534086152044" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.tslint" value="project" />
@@ -387,12 +379,12 @@
       <workItem from="1533571980762" duration="1913000" />
       <workItem from="1533625776817" duration="598000" />
       <workItem from="1533659565107" duration="8176000" />
-      <workItem from="1533977431310" duration="26957000" />
+      <workItem from="1533977431310" duration="33709000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40140000" />
+    <option name="totallyTimeSpent" value="46892000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -433,6 +425,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="First commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="First commit" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/build.rs">
@@ -477,28 +473,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main.rs">
+    <entry file="file://$PROJECT_DIR$/src/game_state.rs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/images.rs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="31" column="58" lean-forward="true" selection-start-line="31" selection-start-column="58" selection-end-line="31" selection-end-column="58" />
+        <state>
+          <caret line="12" column="30" lean-forward="true" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/game.rs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="29" lean-forward="true" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
+        <state relative-caret-position="252">
+          <caret line="526" column="73" selection-start-line="526" selection-start-column="73" selection-end-line="526" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/images.rs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="19" lean-forward="true" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/splash_screen.rs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="20" column="41" lean-forward="true" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="41" />
           <folding>
-            <element signature="n#!!block;n#Letter#0" />
-            <element signature="e#3329#6174#0" />
+            <element signature="e#1051#1052#0" expanded="true" />
+            <element signature="e#1085#1086#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main.rs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="39" lean-forward="true" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
         </state>
       </provider>
     </entry>
