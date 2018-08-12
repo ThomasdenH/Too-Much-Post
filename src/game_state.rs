@@ -38,7 +38,6 @@ impl<'a> EventHandler for StateHolder<'a> {
         if let Some(state) = next_state {
             self.game_state = state;
         }
-
         Ok(())
     }
 
@@ -49,6 +48,7 @@ impl<'a> EventHandler for StateHolder<'a> {
             }
             GameState::MainGame(ref mut game) => game.draw(ctx)?,
         }
+        timer::yield_now();
         Ok(())
     }
 

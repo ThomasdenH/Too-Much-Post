@@ -1,5 +1,5 @@
 [package]
-name = "ggez-test"
+name = "too-much-post"
 version = "0.1.0"
 authors = ["Thomas den Hollander <denhollander.thomas@gmail.com>"]
 build = "build.rs"

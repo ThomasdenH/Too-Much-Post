@@ -21,7 +21,7 @@ const HOUSE_COUNT: u32 = 6;
 const MAX_HOLDING: usize = 4;
 
 const PLAYER_SPEED: f32 = 7.0;
-const MAX_LETTERS_ON_GROUND: u32 = 30;
+const MAX_LETTERS_ON_GROUND: u32 = 10;
 
 #[derive(Clone, Debug)]
 struct House {
@@ -38,11 +38,12 @@ impl House {
         number: u32,
         image_count: usize,
     ) -> GameResult<House> {
-        let text = Text::new(
+        let mut text = Text::new(
             ctx,
             &format!("{}", number),
             &graphics::Font::default_font()?,
         )?;
+        text.set_filter(FilterMode::Nearest);
         Ok(House {
             position,
             number,
@@ -266,12 +267,21 @@ pub struct Game<'a> {
     sound_pickup: audio::Source,
     sound_drop: audio::Source,
     sound_drop_bad: audio::Source,
-    letter_spawn_time: f32
+    letter_spawn_time: f32,
+
+    game_over_text: Text
 }
 
 impl<'a> Game<'a> {
     pub fn new(ctx: &mut Context, images: &'a Images) -> GameResult<Game<'a>> {
         let houses = Game::generate_houses(ctx, images.houses.len())?;
+
+        let mut game_over_text = Text::new(
+            ctx,
+            &"Game over - press spacebar to restart",
+            &graphics::Font::default_font()?,
+        )?;
+        game_over_text.set_filter(FilterMode::Nearest);
 
         Ok(Game {
             player: Point2::new(10.0, 10.0),
@@ -302,7 +312,8 @@ impl<'a> Game<'a> {
             sound_pickup: audio::Source::new(ctx, "/pickup.wav")?,
             sound_drop: audio::Source::new(ctx, "/drop.wav")?,
             sound_drop_bad: audio::Source::new(ctx, "/drop_bad.wav")?,
-            letter_spawn_time: SPAWN_TIME
+            letter_spawn_time: SPAWN_TIME,
+            game_over_text
         })
     }
 
@@ -729,27 +740,41 @@ impl<'a> EventHandler for Game<'a> {
                 rotation: 0.0,
                 offset: Point2::new(0.0, 0.5),
                 shear: Point2::new(0.0, 0.0),
-                scale: scale / 2.0,
+                scale: Point2::new(scale[0] * 0.75, scale[1] / 2.0),
                 ..Default::default()
             },
         )?;
+        let fraction = ((self.letters.len() as f32
+            + self.time_since_last_letter / self.letter_spawn_time)/
+            MAX_LETTERS_ON_GROUND as f32).min(1.0);
         self.images.progress_bar_filled.draw_ex(
             ctx,
             DrawParam {
                 src: Rect {
                     x: 0.0,
                     y: 0.0,
-                    w: (self.letters.len() as f32 / MAX_LETTERS_ON_GROUND as f32),
+                    w: fraction,
                     h: 1.0,
                 },
                 dest: Point2::new(w - 100.0, scale[0] * 1.0 * 32.0),
                 rotation: 0.0,
                 offset: Point2::new(0.0, 0.5),
                 shear: Point2::new(0.0, 0.0),
-                scale: scale / 2.0,
+                scale: Point2::new(scale[0] * 0.75, scale[1] / 2.0),
                 ..Default::default()
             },
         )?;
+
+        if self.game_over {
+            self.game_over_text.draw_ex(ctx,
+                DrawParam {
+                    dest: Point2::new(400.0, 300.0),
+                    offset: Point2::new(0.5, 0.5),
+                    scale: Point2::new(2.0, 2.0),
+                    ..Default::default()
+                }
+            )?;
+        }
 
         graphics::present(ctx);
         Ok(())
@@ -763,7 +788,9 @@ impl<'a> EventHandler for Game<'a> {
         _repeat: bool,
     ) {
         if self.game_over {
-            self.restart(ctx).unwrap();
+            if keycode == Keycode::Space {
+                self.restart(ctx).unwrap();
+            }
         } else {
             match keycode {
                 Keycode::Left | Keycode::A => self.left_pressed = true,
